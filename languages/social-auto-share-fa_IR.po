@@ -1,0 +1,238 @@
+# Persian translation file for Social Auto Share plugin
+# Copyright (C) 2024 YOUR NAME
+# This file is distributed under the same license as the Social Auto Share package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Auto Share 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/social-auto-share\n"
+"POT-Creation-Date: 2024-02-20 12:00+0330\n"
+"PO-Revision-Date: 2024-02-20 12:00+0330\n"
+"Last-Translator: YOUR NAME <your@email.com>\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# Main Plugin Settings
+msgid "Social Auto Share"
+msgstr "اشتراک‌گذاری خودکار"
+
+msgid "Social Share"
+msgstr "اشتراک‌گذاری"
+
+msgid "Save Settings"
+msgstr "ذخیره تنظیمات"
+
+# General Settings
+msgid "Enable this platform"
+msgstr "فعال‌سازی این پلتفرم"
+
+msgid "Enable sharing for %s"
+msgstr "فعال‌سازی اشتراک‌گذاری برای %s"
+
+msgid "%s Settings"
+msgstr "تنظیمات %s"
+
+# Telegram Platform
+msgid "Telegram"
+msgstr "تلگرام"
+
+msgid "Telegram Settings"
+msgstr "تنظیمات تلگرام"
+
+msgid "Bot Token"
+msgstr "توکن ربات"
+
+msgid "Enter your Telegram Bot Token"
+msgstr "توکن ربات تلگرام خود را وارد کنید"
+
+msgid "Enter your Telegram Bot Token (get it from @BotFather)"
+msgstr "توکن ربات تلگرام خود را وارد کنید (از @BotFather دریافت کنید)"
+
+msgid "Channel ID"
+msgstr "شناسه کانال"
+
+msgid "Enter your Telegram Channel ID (e.g., @channelname)"
+msgstr "شناسه کانال تلگرام خود را وارد کنید (مثال: @channelname)"
+
+msgid "Message Template"
+msgstr "قالب پیام"
+
+msgid "Custom message template. Available variables: {title}, {excerpt}, {url}, {author}, {date}"
+msgstr "قالب پیام سفارشی. متغیرهای قابل استفاده: {title}, {excerpt}, {url}, {author}, {date}"
+
+msgid "Include Featured Image"
+msgstr "شامل تصویر شاخص"
+
+msgid "Send featured image as a separate message"
+msgstr "ارسال تصویر شاخص به صورت پیام جداگانه"
+
+msgid "Parse Mode"
+msgstr "حالت پارس"
+
+msgid "Markdown"
+msgstr "مارک‌داون"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Choose how to format your messages"
+msgstr "نحوه قالب‌بندی پیام‌ها را انتخاب کنید"
+
+msgid "Read More"
+msgstr "ادامه مطلب"
+
+msgid "Invalid Telegram Bot Token format"
+msgstr "فرمت توکن ربات تلگرام نامعتبر است"
+
+msgid "Invalid Telegram Channel ID format"
+msgstr "فرمت شناسه کانال تلگرام نامعتبر است"
+
+# Post Type Content
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+msgid "Post Types"
+msgstr "انواع نوشته"
+
+msgid "Select which post types to share"
+msgstr "انتخاب کنید کدام نوع نوشته‌ها اشتراک‌گذاری شوند"
+
+msgid "Categories"
+msgstr "دسته‌ها"
+
+msgid "Select specific categories to share (leave empty for all)"
+msgstr "دسته‌های خاص برای اشتراک‌گذاری را انتخاب کنید (برای همه خالی بگذارید)"
+
+msgid "Exclude Categories"
+msgstr "دسته‌های مستثنی"
+
+msgid "Select categories to exclude from sharing"
+msgstr "دسته‌هایی که نباید اشتراک‌گذاری شوند را انتخاب کنید"
+
+msgid "Share Updates"
+msgstr "اشتراک بروزرسانی‌ها"
+
+msgid "Share post updates when post is modified"
+msgstr "اشتراک‌گذاری بروزرسانی‌های نوشته هنگام تغییر"
+
+msgid "Minimum Word Count"
+msgstr "حداقل تعداد کلمات"
+
+msgid "Minimum number of words required to share (leave empty to disable)"
+msgstr "حداقل تعداد کلمات لازم برای اشتراک‌گذاری (برای غیرفعال کردن خالی بگذارید)"
+
+msgid "Excerpt Length"
+msgstr "طول خلاصه"
+
+msgid "Number of words in the excerpt (default: 55)"
+msgstr "تعداد کلمات در خلاصه متن (پیش‌فرض: 55)"
+
+# Error Messages
+msgid "Error sending message: %s"
+msgstr "خطا در ارسال پیام: %s"
+
+msgid "Error sending photo: %s"
+msgstr "خطا در ارسال تصویر: %s"
+
+msgid "Platform not properly configured"
+msgstr "پلتفرم به درستی پیکربندی نشده است"
+
+msgid "Failed to send image"
+msgstr "خطا در ارسال تصویر"
+
+# Persian Translations for Telegram Setup Guide
+
+msgid "Telegram Setup Guide"
+msgstr "راهنمای اتصال به تلگرام"
+
+msgid "Step 1: Create Telegram Bot"
+msgstr "گام 1: ساخت بات تلگرام"
+
+msgid "Message @BotFather on Telegram"
+msgstr "به بات @BotFather در تلگرام پیام بدهید"
+
+msgid "Send the /newbot command"
+msgstr "دستور /newbot را ارسال کنید"
+
+msgid "Enter a display name for your bot"
+msgstr "نام نمایشی برای بات خود وارد کنید"
+
+msgid "Choose a unique username for your bot (must end in \"bot\")"
+msgstr "یک نام کاربری منحصر به فرد برای بات خود انتخاب کنید (باید به bot ختم شود)"
+
+msgid "BotFather will send you a token - copy it and paste it in the \"Bot Token\" field"
+msgstr "BotFather یک توکن برای شما ارسال می‌کند - آن را کپی کنید و در فیلد \"Bot Token\" قرار دهید"
+
+msgid "Step 2: Add Bot to Channel"
+msgstr "گام 2: افزودن بات به کانال"
+
+msgid "Go to your Telegram channel"
+msgstr "به کانال تلگرام خود بروید"
+
+msgid "Click on the channel name to open the menu"
+msgstr "روی نام کانال کلیک کنید تا منو باز شود"
+
+msgid "Select \"Administrators\""
+msgstr "گزینه \"Administrators\" یا \"مدیران\" را انتخاب کنید"
+
+msgid "Click \"Add Administrator\""
+msgstr "روی \"Add Admin\" یا \"افزودن مدیر\" کلیک کنید"
+
+msgid "Search for your bot username and select it"
+msgstr "نام کاربری بات خود را جستجو کنید و آن را انتخاب نمایید"
+
+msgid "Enable \"Post Messages\" and \"Edit Messages\" permissions for the bot"
+msgstr "دسترسی‌های \"Post Messages\" و \"Edit Messages\" را برای بات فعال کنید"
+
+msgid "Save the changes"
+msgstr "تغییرات را ذخیره کنید"
+
+msgid "Step 3: Configure Plugin"
+msgstr "گام 3: پیکربندی افزونه"
+
+msgid "Enter your bot token in the \"Bot Token\" field"
+msgstr "توکن بات را در فیلد \"Bot Token\" وارد کنید"
+
+msgid "Enter your channel ID in the format @channelname in the \"Channel ID\" field"
+msgstr "شناسه کانال خود را با فرمت @channelname در فیلد \"Channel ID\" وارد کنید"
+
+msgid "Configure your message template (optional)"
+msgstr "قالب پیام خود را تنظیم کنید (اختیاری)"
+
+msgid "Save the settings"
+msgstr "تنظیمات را ذخیره کنید"
+
+msgid "Important Notes:"
+msgstr "نکات مهم:"
+
+msgid "Make sure the bot is added as an administrator to the channel"
+msgstr "اطمینان حاصل کنید که بات به عنوان مدیر به کانال اضافه شده است"
+
+msgid "The bot must have posting and editing permissions in the channel"
+msgstr "بات باید دسترسی ارسال و ویرایش پیام در کانال را داشته باشد"
+
+msgid "You can publish a test post to verify the setup"
+msgstr "برای تست، می‌توانید یک پست آزمایشی منتشر کنید"
+
+
+# Support
+msgid "Support Us"
+msgstr "حمایت کنید"
+
+msgid "Thank you for using Social Auto Share! This plugin is a labor of love, designed to help you to automatically sharing content to social media platforms. If you find it useful, please consider supporting its development."
+msgstr "از استفاده شما از Social Auto Share متشکریم! این افزونه با عشق طراحی شده است تا به شما کمک کند بتوانید محتوا خود را خودکار در شبکه‌های اجتماعی به اشتراک‌ بگذارید. اگر آن را مفید می‌دانید، لطفاً در توسعه آن حمایت کنید."
+
+msgid "Your support helps cover the costs of maintaining and improving the plugin, ensuring it remains free and accessible for everyone. Every little bit helps and is greatly appreciated!"
+msgstr "حمایت شما به پوشش هزینه‌های نگهداری و بهبود افزونه کمک می‌کند، و اطمینان می‌دهد که برای همه رایگان و قابل دسترس باقی بماند. هر کمکی ارزشمند است و بسیار قدردانی می‌شود!"
+
+msgid "Thank you for your generosity and support!"
+msgstr "از سخاوت و حمایت شما متشکریم!"

@@ -1,0 +1,200 @@
+/* Social Auto Share Admin Styles */
+
+.sps-flex {
+	display: flex;
+	gap: 1rem;
+}
+
+/* Main Settings Container */
+.wrap.social-auto-share {
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+/* Platform and Content Type Settings Sections */
+.social-platform-settings,
+.content-type-settings {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom: 30px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+/* Section Headers */
+.social-platform-settings h2,
+.content-type-settings h2 {
+	margin: 0 0 20px;
+	padding: 0 0 15px;
+	border-bottom: 1px solid #eee;
+	font-size: 1.4em;
+	color: #1d2327;
+}
+
+/* Enable/Disable Field */
+.platform-enabled-field,
+.content-type-enabled-field {
+	margin-bottom: 25px;
+	padding: 15px;
+	background: #f8f9fa;
+	border-radius: 3px;
+}
+
+.platform-enabled-field label,
+.content-type-enabled-field label {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* Setting Fields Container */
+.setting-field {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.setting-field:last-child {
+	border-bottom: none;
+}
+
+/* Setting Labels */
+.setting-label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+/* Text Inputs and Textareas */
+.setting-field input[type="text"],
+.setting-field input[type="password"],
+.setting-field textarea {
+	width: 100%;
+	max-width: 400px;
+	margin: 0;
+	padding: 8px 12px;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	background-color: #fff;
+	color: #2c3338;
+	font-size: 14px;
+	line-height: 1.4;
+	transition: border-color 0.15s ease-in-out;
+}
+
+.setting-field input[type="text"]:focus,
+.setting-field input[type="password"]:focus,
+.setting-field textarea:focus {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+	outline: none;
+}
+
+/* Select Fields */
+.setting-field select {
+	min-width: 200px;
+	padding-block: 6px;
+	margin-inline-start: 24px;
+	margin-inline-end: 8px;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+/* Multiple Select */
+.setting-field select[multiple] {
+	min-height: 120px;
+	padding: 8px;
+}
+
+/* Field Descriptions */
+.setting-field .description {
+	margin: 8px 0 0;
+	color: #646970;
+	font-size: 13px;
+	font-style: italic;
+}
+
+/* Telegram Setup Tutorial */
+.telegram-setup-tutorial {
+	background: #fff;
+	border-inline-start: 2px solid #2271b1;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	margin: 20px 0 30px;
+	padding: 20px 25px;
+}
+
+.telegram-setup-tutorial h3 {
+	margin: 0 0 20px;
+	color: #1d2327;
+	font-size: 1.2em;
+}
+
+.telegram-setup-tutorial h4 {
+	margin: 0 0 10px;
+	color: #2271b1;
+	font-size: 1.1em;
+}
+
+.telegram-setup-tutorial .step {
+	margin-bottom: 25px;
+}
+
+.telegram-setup-tutorial .step:last-child {
+	margin-bottom: 0;
+}
+
+.telegram-setup-tutorial ol {
+	margin-inline-start: 20px;
+	padding: 0;
+}
+
+.telegram-setup-tutorial li {
+	margin-bottom: 8px;
+	line-height: 1.5;
+}
+
+.telegram-setup-tutorial ul {
+	margin-inline-start: 20px;
+	padding: 0;
+}
+
+/* Submit Button Area */
+.submit {
+	margin-top: 30px;
+	padding-top: 20px;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 782px) {
+	.setting-field input[type="text"],
+	.setting-field input[type="password"],
+	.setting-field textarea {
+		max-width: 100%;
+	}
+
+	.setting-field select {
+		max-width: 100%;
+	}
+}
+
+/* Error Messages */
+.settings-error {
+	margin: 0 0 20px;
+	padding: 12px 15px;
+	border-inline-start: 2px solid #d63638;
+	background: #fff;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+/* Success Messages */
+.settings-updated {
+	margin: 0 0 20px;
+	padding: 12px 15px;
+	border-inline-start: 4px solid #00a32a;
+	background: #fff;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
